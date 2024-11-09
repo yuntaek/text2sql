@@ -1,0 +1,1 @@
+SELECT i.BillingCountry, SUM(i.Total) AS TotalSales FROM Invoice i WHERE i.InvoiceDate BETWEEN '2023-01-01' AND '2023-12-31' GROUP BY i.BillingCountry ORDER BY TotalSales DESC LIMIT 10;
