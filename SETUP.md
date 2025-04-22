@@ -40,7 +40,7 @@
 1. Console 하단 CloudShell 오픈
 2. 아래 명령어 실행
 ```shell
-git clone https://github.com/yuntaek/text2sql-bedrock.git
+git clone https://github.com/dongjin-ml/text2sql.git
 aws cloudformation create-stack --stack-name gen-ai-workshop --template-body file://text2sql/cloudformation/cf-txt2sql.yaml --capabilities CAPABILITY_NAMED_IAM
 ```
 
