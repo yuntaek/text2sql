@@ -20,7 +20,7 @@
 
 ## Step 2. 실습 자원 배포
 
-1. `cloudformation/cf-txt2sql.yaml` 파일을 [다운로드](https://github.com/kevmyung/text-to-sql-bedrock/blob/main/cloudformation/cf-txt2sql.yaml)합니다.
+1. `cloudformation/cf-txt2sql.yaml` 파일을 [다운로드](https://github.com/dongjin-ml/text2sql/blob/main/cloudformation/cf-txt2sql.yaml)합니다.
 
 2. [CloudFormation 콘솔](https://us-west-2.console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/create)로 이동합니다.
 
@@ -40,8 +40,8 @@
 1. Console 하단 CloudShell 오픈
 2. 아래 명령어 실행
 ```shell
-git clone https://github.com/kevmyung/text-to-sql-bedrock.git
-aws cloudformation create-stack --stack-name gen-ai-workshop --template-body file://text-to-sql-bedrock/cloudformation/cf-txt2sql.yaml --capabilities CAPABILITY_NAMED_IAM
+git clone https://github.com/dongjin-ml/text2sql.git
+aws cloudformation create-stack --stack-name gen-ai-workshop --template-body file://text2sql/cloudformation/cf-txt2sql.yaml --capabilities CAPABILITY_NAMED_IAM
 ```
 
 
