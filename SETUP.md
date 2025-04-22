@@ -20,7 +20,7 @@
 
 ## Step 2. 실습 자원 배포
 
-1. `cloudformation/cf-txt2sql.yaml` 파일을 [다운로드](https://github.com/yuntaek/text2sql/blob/main/cloudformation/cf-txt2sql.yaml)합니다.
+1. `cloudformation/cf-txt2sql.yaml` 파일을 [다운로드](https://github.com/dongjin-ml/text2sql/blob/main/cloudformation/cf-txt2sql.yaml)합니다.
 
 2. [CloudFormation 콘솔](https://us-west-2.console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/create)로 이동합니다.
 

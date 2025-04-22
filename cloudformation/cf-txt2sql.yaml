@@ -169,7 +169,7 @@ Resources:
         AppType: JupyterLab
         JupyterLabAppSettings:
           CodeRepositories: 
-            - RepositoryUrl: https://github.com/dongjin-ml/text-to-sql-bedrock.git
+            - RepositoryUrl: https://github.com/dongjin-ml/text2sql.git
           DefaultResourceSpec:
             InstanceType: ml.t3.medium  
         SpaceStorageSettings:
